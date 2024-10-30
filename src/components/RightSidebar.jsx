@@ -15,12 +15,12 @@ const RightSidebar = () => {
 
     return (
         <>
-            <div className="sticky top-0 bg-white py-2">
+            <div className="sticky top-0 bg-white py-3">
                 <form onSubmit={handleSubmit}>
                     <input
                         type="text"
                         placeholder="Search Better"
-                        className="w-full h-10 bg-gray-100 rounded-full p-3 border border-gray-500 px-4 focus:outline-gray-500 py-2"
+                        className="w-full h-10 bg-gray-100 rounded-full p-3 border border-gray-300 px-4 focus:outline-gray-500 py-2"
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                     />
