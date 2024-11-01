@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { SiSocialblade } from "react-icons/si";
 import { HiHome } from "react-icons/hi";
 import {
